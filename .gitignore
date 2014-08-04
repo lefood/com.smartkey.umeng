@@ -1,3 +1,6 @@
+# Eclipse setting files
+.settings
+
 # Built application files
 *.apk
 *.ap_
@@ -11,6 +14,7 @@
 # Generated files
 bin/
 gen/
+obj/
 
 # Gradle files
 .gradle/
