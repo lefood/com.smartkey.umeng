@@ -50,12 +50,14 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
             android:layout_marginRight="15dp"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
             android:background="@drawable/umeng_fb_reply_right_bg"
-            android:maxWidth="200dp"
+            android:maxWidth="240dp"
             android:text="@string/umeng_fb_reply_content_default"
-            android:textColor="#000000"
+            android:textColor="@android:color/white"
             android:textIsSelectable="true"
-            android:textSize="15sp" />
+            android:textSize="14dp" />
     </RelativeLayout>
 
 </RelativeLayout>
