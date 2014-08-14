@@ -9,7 +9,8 @@
         android:id="@+id/umeng_fb_list_reply_header"
         android:layout_width="fill_parent"
         android:layout_height="20dp"
-        android:orientation="horizontal" >
+        android:orientation="horizontal"
+        android:visibility="gone" >
 
         <TextView
             android:id="@+id/umeng_fb_reply_date"
@@ -21,7 +22,6 @@
             android:paddingRight="5dp"
             android:text="@string/umeng_fb_reply_date_default"
             android:textColor="#666666"
-            android:textScaleX="0.8"
             android:textSize="10sp" />
 
         <TextView
@@ -42,6 +42,7 @@
     <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:layout_below="@id/umeng_fb_list_reply_header" >
 
         <TextView
