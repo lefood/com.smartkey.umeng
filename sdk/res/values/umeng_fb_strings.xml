@@ -20,6 +20,8 @@
 
     <color name="umeng_fb_color_button_pressed">#de5936</color>
     <color name="umeng_fb_color_button_normal">#f1653d</color>
+    <color name="umeng_fb_color_button_cancle_normal">#6b7285</color>
+    <color name="umeng_fb_color_button_cancle_pressed">#585f70</color>
 
     <string name="umeng_fb_powered_by">Powered by</string>
     <string name="umeng_fb_notification_ticker_text">Got new reply</string>

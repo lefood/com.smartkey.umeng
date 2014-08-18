@@ -15,7 +15,7 @@
 
         <RelativeLayout
             android:layout_width="fill_parent"
-            android:layout_height="40dp" >
+            android:layout_height="49dp" >
 
             <ImageView
                 android:id="@+id/umeng_update_wifi_indicator"
@@ -32,7 +32,7 @@
                 android:layout_centerInParent="true"
                 android:text="@string/UMUpdateTitle"
                 android:textAppearance="?android:attr/textAppearanceLarge"
-                android:textColor="#63C2FF" />
+                android:textColor="#444" />
             
             <Button
                 android:id="@+id/umeng_update_id_close"
@@ -51,10 +51,10 @@
 
         <View
             android:layout_width="fill_parent"
-            android:layout_height="2dp"
+            android:layout_height="1px"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
-            android:background="#2AACFF" />
+            android:background="#d0d0d0" />
         <!-- Content -->
 
         <ScrollView
@@ -97,12 +97,31 @@
             android:layout_height="wrap_content" >
 
             <Button
+                android:id="@+id/umeng_update_id_cancel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/umeng_fb_btn_cancle_bg_selector"
+                android:gravity="center"
+                android:padding="12dp"
+                android:text="@string/UMNotNow"
+				android:focusable="true"
+                android:textColor="#AAABAF" />
+            
+            <Button
                 android:id="@+id/umeng_update_id_ok"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_margin="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="15dp"
                 android:layout_weight="1"
-                android:background="@drawable/umeng_update_button_ok_bg_selector"
+                android:background="@drawable/umeng_fb_btn_bg_selector"
                 android:gravity="center"
                 android:padding="12dp"
                 android:text="@string/UMUpdateNow"
@@ -110,24 +129,14 @@
                 android:textColor="#FFFFFF" />
 
             <Button
-                android:id="@+id/umeng_update_id_cancel"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:layout_weight="1"
-                android:background="@drawable/umeng_update_button_cancel_bg_selector"
-                android:gravity="center"
-                android:padding="12dp"
-                android:text="@string/UMNotNow"
-				android:focusable="true"
-                android:textColor="#AAABAF" />
-
-            <Button
                 android:id="@+id/umeng_update_id_ignore"
 				android:visibility="gone"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_margin="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="15dp"
                 android:layout_weight="1"
                 android:background="@drawable/umeng_update_button_cancel_bg_selector"
                 android:gravity="center"
