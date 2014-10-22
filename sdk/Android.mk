@@ -33,6 +33,7 @@ include $(BUILD_MULTI_PREBUILT)
 # Build com.smartkey.umeng.sdk as a java library
 #
 include $(CLEAR_VARS)
+LOCAL_JAR_EXCLUDE_FILES     := none
 LOCAL_MODULE                := com.smartkey.umeng.sdk
 LOCAL_RESOURCE_DIR          := $(LOCAL_PATH)/res
 LOCAL_SRC_FILES             := $(call all-java-files-under,src)
