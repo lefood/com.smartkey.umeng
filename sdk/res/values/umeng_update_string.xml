@@ -8,7 +8,7 @@
 	<string name="UMUpdateSize">Update size: </string>
 	<string name="UMTargetSize">Target size: </string>
 	<string name="UMGprsCondition">(Warning: Not WIFI Condition)</string>
-	<string name="UMUpdateNow">Update now</string>
+	<string name="UMUpdateNow">Install now</string>
 	<string name="UMAppUpdate">App updating</string>
 	<string name="UMNotNow">Not now</string>
 	<string name="UMIgnore">Ingore this</string>
